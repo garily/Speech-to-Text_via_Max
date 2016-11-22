@@ -14,7 +14,7 @@ Implementing communication with IBM Watson's Bluemix STT engine with Cycling 74 
     <li>Double click the upmost box that says "dict @embed 1", which pops out the Dictionary Editor window.</li>
     <li>In the Dictionary Editor window, replace the value for "http_auth", i.e. "username:password", with your credentials generated from Bluemix console's STT instance(if you don't have one already, you'll need to register for a free account on Bluemix and create one yourself, and IBM assigns its Bluemix users with certain amounts of free monthly usage of Bluemix services)</li>
     <li>Replace the value for "filename_in" with the actual path for the speech clip you want to turn into text.<br/>
-        <b>NOTE</b> that the format for file path displayed by default is the pattern for macOS, if you're running the patch on Windows, format for file paths would be something like "[volume]:\\Project\\voiceinput.wav"</li>
+<b>NOTE</b> that the format for file path displayed by default is the pattern for macOS, if you're running the patch on Windows, format for file paths would be something like "[volume]:\\Project\\voiceinput.wav"</li>
     <li>Close the window for Dictionary Editor directly.</li>
     <li>There are two buttons (square boxes with grey cirles inside) in the patch, click the upper one first, then click the second one</li>
     <li>The converted text should appear in the message box on the bottom right corner.</li>
