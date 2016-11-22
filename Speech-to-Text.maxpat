@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1446.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1446.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -226,9 +226,9 @@
 						"response_dict" : "response",
 						"http_method" : "post",
 						"url" : "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?continuous=true",
-						"http_auth" : "5798d144-0444-4337-aa09-9b246eb913a4:rBugGjPxjWxo",
+						"http_auth" : "username:password",
 						"headers" : [ "Content-Type: audio/wav", "Transfer-Encoding: chunked" ],
-						"filename_in" : "/Volumes/ML-Projects/manipulation/Max Patches/recordings/voiceinput.wav"
+						"filename_in" : "/Volumes/Project/voiceinput.wav"
 					}
 ,
 					"id" : "obj-18",
